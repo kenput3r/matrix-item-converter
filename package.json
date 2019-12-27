@@ -1,0 +1,16 @@
+{
+  "name": "matrix-item-converter",
+  "version": "1.0.0",
+  "description": "Converts inventory.dearsystems.com item exports to NetSuite Matrix Item imports",
+  "main": "app.js",
+  "dependencies": {
+    "csv-writer": "^1.5.0",
+    "csvtojson": "^2.0.10"
+  },
+  "repository": "git@github.com:kenput3r/matrix-item-converter.git",
+  "author": "Kenneth Lyerly <kenput3r@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  }
+}
